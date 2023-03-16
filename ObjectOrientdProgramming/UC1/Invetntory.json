@@ -3,15 +3,18 @@
         "Name": "Rice",
         "Weight": 20,
         "PricePerKg": 10
+
     },
     {
         "Name": "Pulses",
-        "Weight": 10,
-        "PricePerKg": 5
+        "Weight": 15,
+        "PricePerKg": 10
+
     },
     {
-        "Name": "Wheat",
-        "Weight": 25,
-        "PricePerKg": 10
+        "Name": "Rice",
+        "Weight":5,
+        "PricePerKg": 42
+
     }
 ]
