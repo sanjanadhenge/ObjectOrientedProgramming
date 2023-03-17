@@ -7,12 +7,11 @@
     {
         "Name": "TCS",
         "NumOfShares": 2000,
-        "SharePrice": 150
+        "SharePrice": 200
     },
     {
         "Name": "Reliance",
-        "NumOfShares":3000,
-        "SharePrice": 300
+        "NumOfShares": 3000,
+        "SharePrice": 500
     }
-
 ]

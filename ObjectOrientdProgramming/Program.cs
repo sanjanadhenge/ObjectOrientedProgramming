@@ -53,8 +53,8 @@ namespace ObjectOrientdProgramming
                         }
                         break;
                     case 3:
-                        SharesOperation sharesOperation = new SharesOperation();
-                        sharesOperation.ReadJsonFile(@"C:\Users\SOURABH\Desktop\Day 3\ObjectOrientedProgramming\ObjectOrientdProgramming\UC3\StockAccount.json");
+                        StockOpeartion stockOpeartion = new StockOpeartion();
+                        stockOpeartion.ReadJsonFile(@"C:\Users\SOURABH\Desktop\Day 3\ObjectOrientedProgramming\ObjectOrientdProgramming\UC3\StockDeatails.json");
                         break;
                     case 4:
                         flag = false;
