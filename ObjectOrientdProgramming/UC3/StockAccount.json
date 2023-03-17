@@ -1,0 +1,18 @@
+[
+    {
+        "Name": "Amazon",
+        "NumOfShares": 1000,
+        "SharePrice": 100
+    },
+    {
+        "Name": "TCS",
+        "NumOfShares": 2000,
+        "SharePrice": 150
+    },
+    {
+        "Name": "Reliance",
+        "NumOfShares":3000,
+        "SharePrice": 300
+    }
+
+]

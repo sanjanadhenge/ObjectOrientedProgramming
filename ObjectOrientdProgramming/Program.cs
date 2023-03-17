@@ -1,5 +1,6 @@
 ﻿using ObjectOrientdProgramming.UC1;
 using ObjectOrientdProgramming.UC2;
+using ObjectOrientdProgramming.UC3;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace ObjectOrientdProgramming
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Select Option\n1.Inventory Operation\n2.Inventory Data Mangement\n3.Exit");
+                Console.WriteLine("Select Option\n1.Inventory Operation\n2.Inventory Data Mangement\n3.Stock Operation\n4.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -52,6 +53,10 @@ namespace ObjectOrientdProgramming
                         }
                         break;
                     case 3:
+                        SharesOperation sharesOperation = new SharesOperation();
+                        sharesOperation.ReadJsonFile(@"C:\Users\SOURABH\Desktop\Day 3\ObjectOrientedProgramming\ObjectOrientdProgramming\UC3\StockAccount.json");
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
