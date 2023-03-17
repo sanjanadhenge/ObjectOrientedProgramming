@@ -1,0 +1,47 @@
+{
+    RiceList: [
+        {
+            "Name": "Sonamasura",
+            "Weight": 20,
+            "PricePerKg": 10
+
+        },
+        {
+            "Name": "Basmati",
+            "Weight": 15,
+            "PricePerKg": 10
+
+        }
+
+    ],
+    "WheatList": [
+        {
+            "Name": "Wheat1",
+            "Weight": 20,
+            "PricePerKg": 10
+
+        },
+        {
+            "Name": "Wheat2",
+            "Weight": 15,
+            "PricePerKg": 10
+
+        }
+
+    ],
+    "PulsesList": [
+        {
+            "Name": "Pulses1",
+            "Weight": 20,
+            "PricePerKg": 10
+
+        },
+        {
+            "Name": "Pulses2",
+            "Weight": 15,
+            "PricePerKg": 10
+
+        }
+
+    ]
+}

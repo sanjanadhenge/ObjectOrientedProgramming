@@ -13,10 +13,11 @@ namespace ObjectOrientdProgramming.UC1
         {
             var data =File.ReadAllText(filePath);
             var result=JsonConvert.DeserializeObject<List<InventoryData>>(data);
-            foreach(var inventory in result)
+            foreach (var inventory in result)
             {
-                Console.WriteLine(inventory.Name +"\t"+inventory.Weight+"\t"+inventory.PricePerKg+"\t"+ inventory.Weight* inventory.PricePerKg);
+                Console.WriteLine(inventory.Name + "\t" + inventory.Weight + "\t" + inventory.PricePerKg + "\t" + inventory.Weight * inventory.PricePerKg);
             }
         }
+        
     }
 }
