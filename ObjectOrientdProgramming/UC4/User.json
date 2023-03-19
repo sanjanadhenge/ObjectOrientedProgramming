@@ -1,0 +1,27 @@
+{
+    "Amazon": [
+        {
+            "Name": "Amazon",
+            "NumOfShares": 0,
+            "Symbol": "Amaz",
+            "DateTime": "26:1:2023"
+        }
+    ],
+    "TCS": [
+        {
+            "Name": "TCS",
+            "NumOfShares": 2000,
+            "Symbol": "Xyz",
+            "DateTime": "25:1:2023"
+        }
+    ],
+    "Reliance": [
+        {
+            "Name": "Reliance",
+            "NumOfShares": 3000,
+            "Jio": "User1",
+            "DateTime": "27:1:2023"
+        }
+    ]
+
+}

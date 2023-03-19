@@ -63,7 +63,6 @@ namespace ObjectOrientdProgramming.UC2
         {
             Console.WriteLine("Enter in Which List You want to edit the data");
             String name = Console.ReadLine();
-           // InventoryList inventoryList = new InventoryList();
             if (name.ToLower().Equals("rice"))
             {
                 foreach (var item in riceList)
@@ -74,6 +73,7 @@ namespace ObjectOrientdProgramming.UC2
                     item.Weight = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Enter Price Per Kag");
                     item.PricePerKg = Convert.ToDouble(Console.ReadLine());
+                    break;
                     
                 }
                 Display(riceList);
@@ -82,9 +82,13 @@ namespace ObjectOrientdProgramming.UC2
             {
                 foreach (var item in wheatList)
                 {
+                    Console.WriteLine("Enter Name of WHEAT");
                     item.Name = Console.ReadLine();
+                    Console.WriteLine("Enter Weight");
                     item.Weight = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Enter Price Per Kag");
                     item.PricePerKg = Convert.ToDouble(Console.ReadLine());
+                    break;
                 }
                 Display(wheatList);
             }
@@ -92,9 +96,13 @@ namespace ObjectOrientdProgramming.UC2
             {
                 foreach (var item in pulsesList)
                 {
+                    Console.WriteLine("Enter Name of PULSES");
                     item.Name = Console.ReadLine();
+                    Console.WriteLine("Enter Weight");
                     item.Weight = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Enter Price Per Kag");
                     item.PricePerKg = Convert.ToDouble(Console.ReadLine());
+                    break;
                 }
                 Display(pulsesList);
             }
