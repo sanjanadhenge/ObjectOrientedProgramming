@@ -1,17 +1,1 @@
-[
-    {
-        "Name": "Amazon",
-        "NumOfShares": 1000,
-        "SharePrice": 100
-    },
-    {
-        "Name": "TCS",
-        "NumOfShares": 2000,
-        "SharePrice": 200
-    },
-    {
-        "Name": "Reliance",
-        "NumOfShares": 3000,
-        "SharePrice": 500
-    }
-]
+[{"Name":"Amazon","NumOfShares":1037.5,"SharePrice":100.0},{"Name":"TCS","NumOfShares":2000.0,"SharePrice":200.0},{"Name":"Reliance","NumOfShares":3000.0,"SharePrice":500.0}]

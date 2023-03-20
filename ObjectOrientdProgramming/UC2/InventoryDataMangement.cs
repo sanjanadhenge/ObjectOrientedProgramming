@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 namespace ObjectOrientdProgramming.UC2
 {
     public class InventoryDataMangement
-    { 
-        List<InventoryData> riceList;
+    {        List<InventoryData> riceList;
         List<InventoryData> wheatList;
         List<InventoryData> pulsesList;
 
